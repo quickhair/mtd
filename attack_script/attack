@@ -1,0 +1,7 @@
+#!/bin/bash
+
+slowhttptest -c 8000 -H -i 10 -r 500 -t GET -u http://streaming.com -x 24 -p 3 -l 1800
+
+sleep 20
+
+sshpass -p "Whocares4$" scp -r minhnguy@pcvm1-31.instageni.idre.ucla.edu:/users/minhnguy/att /users/minhnguy/
