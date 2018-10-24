@@ -1,2 +1,2 @@
 # mtd
-Testing MTD on a video service.
+Testing MTD on a streaming service.
